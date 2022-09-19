@@ -1,0 +1,279 @@
+    1  sudo yum update
+    2  pwd
+    3  ls
+    4  ls/
+    5  ls /
+    6  man
+    7  1
+    8  man ls
+    9  cd
+   10  pwd
+   11  cd ^c
+   12  cd /usr/bin
+   13  cd 
+   14  clear
+   15  sudo yum install git
+   16  clear
+   17  pwd
+   18  cd/var/log
+   19  cd / var /log
+   20  cad /var/log
+   21  cd ~
+   22  pwd
+   23  ls
+   24  ls-l
+   25  ls -l
+   26  ls -r
+   27  history
+   28  uname -a
+   29  cd
+   30  mkdir g1
+   31  ls
+   32  sudo yum install git
+   33  git
+   34  git clone https://github.com/GurveenLamba/Wiley-project.git
+   35  touch file.txt
+   36  ls
+   37  pwd
+   38  git status
+   39  git add
+   40  pwd
+   41  git status
+   42  git.add
+   43  git add.
+   44  add
+   45  git add .
+   46  git add
+   47  git add.
+   48  git config --global user.name "Gurveen Lamba"
+   49  git config --global user.email "gurveenlamba@gmail.com"
+   50  git status
+   51  .git status
+   52  git status.
+   53  status
+   54  git commit
+   55  git --help
+   56  git help -a
+   57  cd wiley project 
+   58  git
+   59  cd
+   60  git status
+   61  git commit
+   62  clear
+   63  git
+   64  git clone https://github.com/GurveenLamba/Wiley-project.git
+   65  cd wiley peoject
+   66  cd "Wiley Project"
+   67  git commit -m
+   68  pwd
+   69  cd "wiley project"
+   70  wiley project
+   71  clear
+   72  cd
+   73  wiley project
+   74  pwd
+   75  cd
+   76  pwd
+   77  ls
+   78  ls -l
+   79  ls -lr
+   80  ls -lrt
+   81  alias l='ls -lrt'
+   82  l
+   83  vi test.txt
+   84  l
+   85  chmod 700 test.txt 
+   86  l
+   87  chmod rwx test.txt 
+   88  chmod --help
+   89  l
+   90  chmod o+rwx test.txt 
+   91  l
+   92  cd Wiley-project/
+   93  l
+   94  cd ..
+   95  l
+   96  pwd
+   97  cd Wiley-project/
+   98  pwd
+   99  cd ../..
+  100  l
+  101  cd *
+  102  l
+  103  pwd
+  104  which python
+  105  python
+  106  l
+  107  ls --help
+  108  D:\Wiley Edge Training\Linux
+  109  l
+  110  man ls
+  111  uname
+  112  uname -a
+  113  l
+  114  cd g1
+  115  l
+  116  pwd
+  117  cd ../Wiley-project/
+  118  pwd
+  119  k
+  120  l
+  121  cat README.md 
+  122  vi README.md 
+  123  cat ../test.txt 
+  124  vi basic_commands_exercise.txt
+  125  cd
+  126  ls -lart
+  127  vi .bash_profile
+  128  cd -
+  129  l
+  130  vi basic_commands_exercise.txt
+  131  ls --help
+  132  :q1
+  133  l
+  134  vi basic_commands_exercise.txt 
+  135  cat basic_commands_exercise.txt 
+  136  pwd
+  137  cd /var/log
+  138  cd ..
+  139  pwd
+  140  ls
+  141  ls -l
+  142  ls -lrt
+  143  cd /root
+  144  cd ~
+  145  cd ..
+  146  ls --help
+  147  cd /var
+  148  ls -rs
+  149  uname -a
+  150  cd\
+  151  cd 
+  152  l
+  153  history > gurveen.220919.module2
+  154  l
+  155  mkdir test_dir
+  156  l
+  157  mkdir test_dir/dir1
+  158  mkdir test_dir2/dir1
+  159  mkdir -R test_dir2/dir1
+  160  mkdir -r test_dir2/dir1
+  161  mkdir --help
+  162  mkdir -p test_dir2/dir1
+  163  l
+  164  cd test_dir2/dir1
+  165  l
+  166  pwd
+  167  cd ../..
+  168  l
+  169  history
+  170  history -10
+  171  history 10
+  172  history 15
+  173  l
+  174  history 20
+  175  l
+  176  rm test_dir/
+  177  rm -r test_dir/
+  178  l
+  179  cat test.txt 
+  180  rm test.txt
+  181  l
+  182  ls -lrt|grep 19
+  183  l
+  184  ls -lrt>temp
+  185  l
+  186  vi te
+  187  vi temp 
+  188  rm temp 
+  189  l
+  190  pwd
+  191  cd /
+  192  pwd
+  193  ls
+  194  l opt
+  195  pwd
+  196  l
+  197  cd ~
+  198  l
+  199  pwd
+  200  cd  /
+  201  l
+  202  find / -name *basic*.txt
+  203  find / -name *basic*.txt|grep -r Permission denied
+  204  find / -name *basic*.txt|grep -v Permission denied
+  205  l
+  206  cd /home/
+  207  l
+  208  find . -name *basic*.txt
+  209  ls -lrt ./ec2-user/Wiley-project/basic_commands_exercise.txt
+  210  l ./ec2-user/Wiley-project/basic_commands_exercise.txt
+  211  l
+  212  cd ~
+  213  pwd
+  214  mkdir Algo1
+  215  l
+  216  cd Algo1/
+  217  mkdir config, bin, logs,scripts
+  218  l
+  219  rm -rf *
+  220  l
+  221  mkdir config bin logs scripts
+  222  l
+  223  cd config/
+  224  l
+  225  touch config.config variables
+  226  l
+  227  cd
+  228  l
+  229  cd -
+  230  l
+  231  pwd
+  232  cd ../scripts/
+  233  l
+  234  touch start.sh stop.sh admin.sh
+  235  l
+  236  cd ../logs/
+  237  l
+  238  touch today.log
+  239  l
+  240  cd ~
+  241  ls -lrt
+  242  rm Algo1/config/variables 
+  243  l Algo1/config/
+  244  rm -r Algo1/bin/
+  245  l Algo1/
+  246  cd
+  247  l
+  248  mkdir Algo1/bin
+  249  l
+  250  cd Algo1/
+  251  l
+  252  mkdir logs/oldlogs
+  253  l logs/
+  254  cd ol
+  255  l
+  256  cd logs/oldlogs/
+  257  l
+  258  mkdir 2019 2018 2017
+  259  l
+  260  touch 2017/2017.log
+  261  l 2017
+  262  touch 2018/2018.log
+  263  touch 2019/2019.log
+  264  l 2019
+  265  l 2018
+  266  cd
+  267  l
+  268  rm -r Algo1/logs/oldlogs/
+  269  l Algo1/logs/
+  270  pwd
+  271  find . -name *.sh
+  272  cd Algo1/scripts/
+  273  l
+  274  rm s*.sh
+  275  l
+  276  cd
+  277  l
+  278  history gurveen.220919.module3
+  279  history> gurveen.220919.module3
