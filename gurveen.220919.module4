@@ -1,0 +1,499 @@
+    1  sudo yum update
+    2  pwd
+    3  ls
+    4  ls/
+    5  ls /
+    6  man
+    7  1
+    8  man ls
+    9  cd
+   10  pwd
+   11  cd ^c
+   12  cd /usr/bin
+   13  cd 
+   14  clear
+   15  sudo yum install git
+   16  clear
+   17  pwd
+   18  cd/var/log
+   19  cd / var /log
+   20  cad /var/log
+   21  cd ~
+   22  pwd
+   23  ls
+   24  ls-l
+   25  ls -l
+   26  ls -r
+   27  history
+   28  uname -a
+   29  cd
+   30  mkdir g1
+   31  ls
+   32  sudo yum install git
+   33  git
+   34  git clone https://github.com/GurveenLamba/Wiley-project.git
+   35  touch file.txt
+   36  ls
+   37  pwd
+   38  git status
+   39  git add
+   40  pwd
+   41  git status
+   42  git.add
+   43  git add.
+   44  add
+   45  git add .
+   46  git add
+   47  git add.
+   48  git config --global user.name "Gurveen Lamba"
+   49  git config --global user.email "gurveenlamba@gmail.com"
+   50  git status
+   51  .git status
+   52  git status.
+   53  status
+   54  git commit
+   55  git --help
+   56  git help -a
+   57  cd wiley project 
+   58  git
+   59  cd
+   60  git status
+   61  git commit
+   62  clear
+   63  git
+   64  git clone https://github.com/GurveenLamba/Wiley-project.git
+   65  cd wiley peoject
+   66  cd "Wiley Project"
+   67  git commit -m
+   68  pwd
+   69  cd "wiley project"
+   70  wiley project
+   71  clear
+   72  cd
+   73  wiley project
+   74  l
+   75  pwd
+   76  cd
+   77  pwd
+   78  ls
+   79  ls -l
+   80  ls -lr
+   81  ls -lrt
+   82  alias l='ls -lrt'
+   83  l
+   84  vi test.txt
+   85  l
+   86  chmod 700 test.txt 
+   87  l
+   88  chmod rwx test.txt 
+   89  chmod --help
+   90  l
+   91  chmod o+rwx test.txt 
+   92  l
+   93  cd Wiley-project/
+   94  l
+   95  cd ..
+   96  l
+   97  pwd
+   98  cd Wiley-project/
+   99  pwd
+  100  cd ../..
+  101  l
+  102  cd *
+  103  l
+  104  pwd
+  105  which python
+  106  python
+  107  l
+  108  ls --help
+  109  D:\Wiley Edge Training\Linux
+  110  l
+  111  man ls
+  112  uname
+  113  uname -a
+  114  l
+  115  cd g1
+  116  l
+  117  pwd
+  118  cd ../Wiley-project/
+  119  pwd
+  120  k
+  121  l
+  122  cat README.md 
+  123  vi README.md 
+  124  cat ../test.txt 
+  125  vi basic_commands_exercise.txt
+  126  cd
+  127  ls -lart
+  128  vi .bash_profile
+  129  cd -
+  130  l
+  131  vi basic_commands_exercise.txt
+  132  ls --help
+  133  :q1
+  134  l
+  135  vi basic_commands_exercise.txt 
+  136  cat basic_commands_exercise.txt 
+  137  pwd
+  138  cd /var/log
+  139  cd ..
+  140  pwd
+  141  ls
+  142  ls -l
+  143  ls -lrt
+  144  cd /root
+  145  cd ~
+  146  cd ..
+  147  ls --help
+  148  cd /var
+  149  ls -rs
+  150  uname -a
+  151  cd\
+  152  cd 
+  153  l
+  154  history > gurveen.220919.module2
+  155  l
+  156  mkdir test_dir
+  157  l
+  158  mkdir test_dir/dir1
+  159  mkdir test_dir2/dir1
+  160  mkdir -R test_dir2/dir1
+  161  mkdir -r test_dir2/dir1
+  162  mkdir --help
+  163  mkdir -p test_dir2/dir1
+  164  l
+  165  cd test_dir2/dir1
+  166  l
+  167  pwd
+  168  cd ../..
+  169  l
+  170  history
+  171  history -10
+  172  history 10
+  173  history 15
+  174  l
+  175  history 20
+  176  l
+  177  rm test_dir/
+  178  rm -r test_dir/
+  179  l
+  180  cat test.txt 
+  181  rm test.txt
+  182  l
+  183  ls -lrt|grep 19
+  184  l
+  185  ls -lrt>temp
+  186  l
+  187  vi te
+  188  vi temp 
+  189  rm temp 
+  190  l
+  191  pwd
+  192  cd /
+  193  pwd
+  194  ls
+  195  l opt
+  196  pwd
+  197  l
+  198  cd ~
+  199  l
+  200  pwd
+  201  cd  /
+  202  l
+  203  find / -name *basic*.txt
+  204  find / -name *basic*.txt|grep -r Permission denied
+  205  find / -name *basic*.txt|grep -v Permission denied
+  206  l
+  207  cd /home/
+  208  l
+  209  find . -name *basic*.txt
+  210  ls -lrt ./ec2-user/Wiley-project/basic_commands_exercise.txt
+  211  l ./ec2-user/Wiley-project/basic_commands_exercise.txt
+  212  l
+  213  cd ~
+  214  pwd
+  215  mkdir Algo1
+  216  l
+  217  cd Algo1/
+  218  mkdir config, bin, logs,scripts
+  219  l
+  220  rm -rf *
+  221  l
+  222  mkdir config bin logs scripts
+  223  l
+  224  cd config/
+  225  l
+  226  touch config.config variables
+  227  l
+  228  cd
+  229  l
+  230  cd -
+  231  l
+  232  pwd
+  233  cd ../scripts/
+  234  l
+  235  touch start.sh stop.sh admin.sh
+  236  l
+  237  cd ../logs/
+  238  l
+  239  touch today.log
+  240  l
+  241  cd ~
+  242  ls -lrt
+  243  rm Algo1/config/variables 
+  244  l Algo1/config/
+  245  rm -r Algo1/bin/
+  246  l Algo1/
+  247  cd
+  248  l
+  249  mkdir Algo1/bin
+  250  l
+  251  cd Algo1/
+  252  l
+  253  mkdir logs/oldlogs
+  254  l logs/
+  255  cd ol
+  256  l
+  257  cd logs/oldlogs/
+  258  l
+  259  mkdir 2019 2018 2017
+  260  l
+  261  touch 2017/2017.log
+  262  l 2017
+  263  touch 2018/2018.log
+  264  touch 2019/2019.log
+  265  l 2019
+  266  l 2018
+  267  cd
+  268  l
+  269  rm -r Algo1/logs/oldlogs/
+  270  l Algo1/logs/
+  271  pwd
+  272  find . -name *.sh
+  273  cd Algo1/scripts/
+  274  l
+  275  rm s*.sh
+  276  l
+  277  cd
+  278  l
+  279  history gurveen.220919.module3
+  280  history> gurveen.220919.module3
+  281  l
+  282  MY_VAR='Gurveen'
+  283  echo $MY_VAR
+  284  echo $MY_VAR*3
+  285  git --help
+  286  git
+  287  l
+  288  l gu*
+  289  cp gu* Wiley-project/
+  290  l
+  291  cd Wiley-project/
+  292  l
+  293  git init
+  294  ls -lart
+  295  cat .git
+  296  cd .git/
+  297  l
+  298  cd ..
+  299  l
+  300  git commit -m "second commit"
+  301  git add -A
+  302  git commit -m "second commit"
+  303  git remote add Wiley-project https://github.com/GurveenLamba/Wiley-project.git
+  304  git remote
+  305  git pull origin master
+  306  git status
+  307  git push -u Wiley-project Wiley-project
+  308  git push -u Wiley-project 
+  309  git config --global user.email "gurveenlamba@gmail.com"
+  310  git status
+  311  git push
+  312  ls /usr/bin
+  313  man
+  314  man --ps
+  315  ps
+  316  ps -f$$
+  317  man --help
+  318  man --f
+  319  ps -ef 
+  320  ps -ef | grep -v root
+  321  pf -s
+  322  man -ps
+  323  man ps
+  324  pf -s
+  325  [f -es
+  326  pf -es
+  327  clear
+  328  ps -ef | egrep"$$|cmd"
+  329   ps -ef | egrep"$$|cm                                                      d"
+  330   ps -ef | egrep"$$|cmd"
+  331  clear
+  332  man --help
+  333  pf
+  334  pef
+  335  pf -e
+  336  pf -egrep
+  337  man
+  338  all
+  339  man --5
+  340  man --help
+  341  man --ps
+  342  man --help
+  343  man --es
+  344  man --ps
+  345  man ps
+  346  top
+  347  ping google.com
+  348  clear
+  349  cd~
+  350  cd ~
+  351  pwd
+  352  mkdir Algo1
+  353  clear
+  354  stock = AAPL
+  355  stock=AAPL
+  356  echo stock 
+  357  clear
+  358  stock=AAPL
+  359  echo$stock
+  360  echo $stock
+  361  stock=AAPL_US
+  362  stock=AAPL
+  363  stock+=_US
+  364  echo $stock
+  365  PRICE=290.84
+  366  l
+  367  cd Wiley-project/
+  368  l
+  369  my_name="Gurveen"
+  370  echo $my_name
+  371  echo $my_namE
+  372  echo $my_name
+  373  echo My name is $my_name
+  374  my_name=34
+  375  echo My name is $my_name
+  376  my_name=34+9
+  377  echo My name is $my_name
+  378  l
+  379  cat basic_commands_exercise.txt 
+  380  content=`cat basic_commands_exercise.txt `
+  381  echo $content
+  382  l
+  383  ls -lrt
+  384  clear
+  385  ex=Ajay
+  386  echo '$ex'
+  387  echo "$ex"
+  388  echo `$ex`
+  389  env
+  390  export my_name=Gurveen
+  391  env
+  392  env -u my_name
+  393  which python
+  394  l
+  395  cd ..
+  396  gurveen.220919.module3
+  397  cd -
+  398  PATH=/usr/local/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin
+  399  which python
+  400  python
+  401  PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin
+  402  which python
+  403  python
+  404  l
+  405  STOCK=AAPL
+  406  echo $STOCK
+  407  STOCK+=_US
+  408  echo $STOCK
+  409  PRICE=290.84
+  410  echo $"The current price of is PRICE" 
+  411  echo $"The current price of is"$PRICE
+  412  echo The current price of is $PRICE
+  413  echo WHOAMI
+  414  echo $WHOAMI
+  415  whoami
+  416  WHOAMI=GurveenLamba
+  417  echo WHOAMI
+  418  echo $WHOAMI
+  419  whoami
+  420  WHOAMI=`whoami`
+  421  echo $WHOAMI
+  422  SERVERTYPE=$(uname)
+  423  echo $SERVERTYPE
+  424  CMD="uname -i"
+  425  echo $CMD
+  426  echo $(CMD)
+  427  echo $`CMD`
+  428  echo `$CMD`
+  429  cd~
+  430  cd ~
+  431  mkdir scripts
+  432  l
+  433  echo $path
+  434  echo $PATH
+  435  PWD
+  436  pwd
+  437  echo $PATH
+  438  echo $HOME
+  439  cd scripts
+  440  pwd
+  441  $PATH=$PATH:/home/ec2-user/scripts
+  442  echo $PATH
+  443  $PATH=$PATH+:/home/ec2-user/scripts
+  444  l /home/ec2-user/scripts
+  445  $PATH=$PATH:/home/ec2-user/scripts
+  446  l
+  447  cd ..
+  448  l
+  449  cd -
+  450  l
+  451  export $PATH=$PATH:/home/ec2-user/scripts
+  452  export PATH=$PATH:/home/ec2-user/scripts
+  453  echo $PATH
+  454  cd 
+  455  l
+  456  rm -r Algo1
+  457  l
+  458  mkdir Payment1
+  459  l
+  460  cd Payment1/
+  461  l
+  462  mkdir logs configuration scripts
+  463  l
+  464  cd scripts/
+  465  touch start.sh
+  466  l
+  467  cd ..
+  468  l
+  469  cd configuration/
+  470  l
+  471  touch instance.properties
+  472  l
+  473  chmod 744 instance.properties 
+  474  l
+  475  cd ..
+  476  l
+  477  cd scripts/
+  478  l
+  479  chmod 771 start.sh 
+  480  l
+  481  cd
+  482  man cat>cat.output
+  483  l
+  484  vi cat.output 
+  485  chmod 474 cat.output 
+  486  l
+  487  cd
+  488  l
+  489  pwd
+  490  rm -r Payment1/
+  491  l
+  492  rm -i cat.output
+  493  mkdir temp
+  494  MYTEMP=~/temp
+  495  l
+  496  echo $MYTEMP
+  497  MYTEMP=
+  498  rm -rf temp
+  499  history > gurveen.220919.module4
