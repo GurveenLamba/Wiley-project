@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Enter Password: "
+read password
+if [ ${#password} -lt 8 ]; then echo "Bad Password 1" ; return 
+fi
+if [[ $password =~ ^[[:alnum:]]+$ ]];then echo "" 
+else
+	echo "Bad Password 2" ; return
+fi
+if [[ $password =~ [[:upper:]] && $password =~ [[:lower:]] ]]; then
+	echo "Amazing!! Good Password."
+else
+        echo "Bad Password 3" ; return
+fi

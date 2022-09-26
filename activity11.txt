@@ -1,0 +1,7 @@
+#!/bin/bash
+input="input.txt"
+IFS=' '
+read -ra line  < "$input"
+for i in ${line[*]}; do echo $i; done > "output.txt"	
+sort -nur output.txt
+

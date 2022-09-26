@@ -1,0 +1,38 @@
+#!/bin/bash
+declare -a intnum
+unset intnum 
+prod=1
+avg=0
+sum=0
+min=9999999999
+max=0
+
+for i in {1..10}
+do
+	if [ $i -ge 6 ]; then echo "Exit?(y/n)" ; 
+		read is_exit
+		if [ $is_exit == "y"  ]; then 
+		break
+		fi
+	fi
+
+   echo "Enter integer $i: "
+   read line
+   intnum=("${intnum[@]}" $line)
+   prod=$((prod * line))
+   sum=$((sum + line))
+   if [ $min -gt $line ]; then min=$line;
+   fi
+   if [ $max -lt $line ]; then max=$line;
+   fi
+done
+i=$((i-1))
+avg=$((sum / i))
+echo $i
+echo "Integer Numbers: ${intnum[@]}"
+echo "Product: $prod"
+echo "Sum: $sum"
+echo "Min: $min"
+echo "Max: $max"
+echo "Avg: $avg"
+
