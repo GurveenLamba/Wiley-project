@@ -8,5 +8,6 @@ read -r line  < "$input"
 for i in ${line[*]}; do echo $i; done > "output.txt"
 # Sort file numerically uniquely in reverse order
 sort -nur output.txt
+exit 0
 
 

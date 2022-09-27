@@ -38,4 +38,4 @@ echo "Sum: $sum"
 echo "Min: $min"
 echo "Max: $max"
 echo "Avg: $avg"
-
+exit 0
