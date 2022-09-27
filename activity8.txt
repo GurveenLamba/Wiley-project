@@ -7,8 +7,10 @@ sum=0
 min=9999999999
 max=0
 
+# Continuosly get inputs
 for i in {1..10}
 do
+	# Check if i>=6 if yes, means 5 integers are entered.
 	if [ $i -ge 6 ]; then echo "Exit?(y/n)" ; 
 		read is_exit
 		if [ $is_exit == "y"  ]; then 
@@ -18,6 +20,7 @@ do
 
    echo "Enter integer $i: "
    read line
+   # Adding integer to array
    intnum=("${intnum[@]}" $line)
    prod=$((prod * line))
    sum=$((sum + line))

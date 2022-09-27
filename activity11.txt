@@ -1,7 +1,12 @@
-#!/bin/bash
+# Defining input file
 input="input.txt"
+# Setting delimiter as ' '
 IFS=' '
-read -ra line  < "$input"
-for i in ${line[*]}; do echo $i; done > "output.txt"	
+# Read file with input file
+read -r line  < "$input"
+# Writing every integer into file output.txt
+for i in ${line[*]}; do echo $i; done > "output.txt"
+# Sort file numerically uniquely in reverse order
 sort -nur output.txt
+
 

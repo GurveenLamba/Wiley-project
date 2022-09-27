@@ -1,12 +1,16 @@
 #!/bin/bash
+#Asking for password
 echo "Enter Password: "
 read password
+# Check if password is of length 8
 if [ ${#password} -lt 8 ]; then echo "Bad Password 1" ; return 
 fi
+# Check if password is alpha numeric
 if [[ $password =~ ^[[:alnum:]]+$ ]];then echo "" 
 else
 	echo "Bad Password 2" ; return
 fi
+# Check if password is having upper and lower case
 if [[ $password =~ [[:upper:]] && $password =~ [[:lower:]] ]]; then
 	echo "Amazing!! Good Password."
 else
