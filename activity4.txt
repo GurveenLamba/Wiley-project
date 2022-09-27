@@ -3,16 +3,18 @@
 echo "Enter Password: "
 read password
 # Check if password is of length 8
-if [ ${#password} -lt 8 ]; then echo "Bad Password 1" ; return 
+if [ ${#password} -lt 8 ]; then echo "Bad Password 1" ;  exit 1 
 fi
 # Check if password is alpha numeric
-if [[ $password =~ ^[[:alnum:]]+$ ]];then echo "" 
-else
-	echo "Bad Password 2" ; return
+if [[ ! $password =~ [0-9] ]];then  
+
+	echo "0Bad Password 2" ;  exit 1
 fi
 # Check if password is having upper and lower case
 if [[ $password =~ [[:upper:]] && $password =~ [[:lower:]] ]]; then
 	echo "Amazing!! Good Password."
 else
-        echo "Bad Password 3" ; return
+        echo "Bad Password 3" ;  exit 1
 fi
+
+exit 0   
